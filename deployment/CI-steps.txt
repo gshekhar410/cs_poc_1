@@ -1,0 +1,15 @@
+1) Docker compose down
+docker compose down
+
+2) Remove unused containers, networks, caches etc
+docker system prune -f
+
+3) Remove unused images
+docker image prune -a -f
+
+4) Clone latest code repo (dev branch)
+actions/checkout@v2
+
+5) Docker compose Up
+docker compose up
+
